@@ -1,0 +1,32 @@
+This Python program is a simple animal quiz game built using the tkinter GUI library. It presents the user with multiple-choice animal questions, lets them select answers, and displays the final score at the end.
+
+🧠 How It Works:
+Initialization:
+Sets up the window, questions, score, and current question index.
+
+GUI Setup:
+Creates a label for the question, four radio buttons for answer options, and a submit button.
+
+Question Display:
+Each time a question loads, it updates the question and its options in the GUI.
+
+Answer Checking:
+When "Submit" is clicked:
+
+It checks if an option is selected.
+
+Compares the selected answer to the correct one.
+
+Updates the score if correct and loads the next question.
+
+End of Quiz:
+After the last question, it shows a message box with the user’s final score and exits the program.
+
+🎯 Main Features:
+User-friendly GUI
+
+Multiple-choice questions
+
+Score tracking
+
+End-of-quiz feedback
